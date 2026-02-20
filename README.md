@@ -47,7 +47,7 @@ Chaque machine a deux routes configurées :
 2. Route vers **192.168.0.0/16**  
 Cela évite d'écrire une route distincte pour chaque réseau ; le pare-feu Stormshield assure toute la sécurité inter-réseaux.
 
-![Diagramme infrastructure réseau](../images/infra_reseau.jpg "Diagramme infrastructure réseau")
+![Diagramme infrastructure réseau](./images/infra_reseau.jpg "Diagramme infrastructure réseau")
 
 ## Politiques de Sécurité Réseau
 
@@ -65,7 +65,7 @@ Pour respecter les consignes du projet, des règles strictes ont été établies
 **Contrôle spécifique Production :**  
 Les machines du réseau Production n'accèdent aux réseaux externes **qu'à travers un proxy web** situé dans le réseau Informatique, via un navigateur **Firefox** préconfiguré avec les paramètres proxy.
 
-![Règles pare-feu](../images/regles_parefeu.png "Règles pare-feu")
+![Règles pare-feu](./images/regles_parefeu.png "Règles pare-feu")
 ## Routage Inter-Organisations
 
 **Sur le routeur :**  
