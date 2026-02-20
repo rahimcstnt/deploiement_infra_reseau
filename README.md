@@ -1,4 +1,4 @@
-# deploiement_infra
+# Déploiement d'infrastructure réseau
 Ce projet s’inscrit dans le cadre d’une SAÉ du BUT Informatique au semestre 5. Il consiste à concevoir et mettre en place une infrastructure réseau complète pour une organisation, avec un réseau public, un réseau privé segmenté en VLAN (production, administratif, informatique) et un pare-feu centralisé assurant le routage et la sécurité.
 
 # Compte Rendu Final équipe Blanc :
@@ -47,7 +47,7 @@ Chaque machine a deux routes configurées :
 2. Route vers **192.168.0.0/16**  
 Cela évite d'écrire une route distincte pour chaque réseau ; le pare-feu Stormshield assure toute la sécurité inter-réseaux.
 
-![Diagramme infrastructure réseau](/images/infra_reseau.jpg "Diagramme infrastructure réseau")
+![Diagramme infrastructure réseau](/images/infra_reseau_finale.jpg "Diagramme infrastructure réseau")
 
 ## Politiques de Sécurité Réseau
 
