@@ -49,6 +49,8 @@ Cela évite d'écrire une route distincte pour chaque réseau ; le pare-feu Stor
 
 ![Diagramme infrastructure réseau](/images/infra_reseau_finale.jpg "Diagramme infrastructure réseau")
 
+![Infrastructure réseau physique](/images/infra_physique.jpg "Infrastructure réseau physique")
+"
 ## Politiques de Sécurité Réseau
 
 Pour respecter les consignes du projet, des règles strictes ont été établies sur le pare-feu :  
